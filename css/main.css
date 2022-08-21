@@ -1,0 +1,68 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+header {
+   width: 100%;
+   height: 50px;
+   background-color: black;
+
+}
+
+body {
+   background-color: black;
+   background: url(/media/back-Hynaell_Website.png) fixed no-repeat;
+   background-size: cover;
+
+}
+
+.banner {
+   position: relative;
+   width: 100%;
+   height: 200px;
+}
+
+.banner img {
+   width: 100%;
+   height: 100%;
+
+}
+
+.foto {
+   position: absolute;
+   background-color: black;
+   left: 24%;
+   top: 5%;
+   width: 13%;
+   height: 87%;
+   border-radius: 30px;
+
+}
+
+.foto img {
+   width: 100%;
+   height: 100%;
+   border-radius: 30px;
+}
+
+.page {
+   overflow: hidden;
+   margin: 2% auto;
+   width: 95%;
+   height: 500px;
+   background-color: blueviolet;
+}
+
+footer {
+   overflow: hidden;
+   width: 100%;
+   max-height: 150px;
+}
+
+.rodape {
+   width: 100%;
+   height: 150px;
+   background-color: black;
+}
