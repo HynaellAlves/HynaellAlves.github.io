@@ -61,11 +61,22 @@ body {
 .titulos {
    position: absolute;
    font-family: 'Rubik Iso', cursive;
-   text-shadow: 0 0 1px white;
-   font-size: 60px;
-   color: #5E17EB;
-   top: 130px;
+   color: white;
 
+}
+
+.titulo1 {
+   top: 130px;
+   text-shadow: 0 0 20px #ff0000;
+   font-size: 60px;
+   
+}
+
+.titulo2 {
+   top: 130px;
+   text-shadow: 0 0 20px #ff0000;
+   font-size: 60px;
+   
 }
 
 .content {
@@ -82,6 +93,12 @@ body {
 
 .content1 {
    background: url('/media/content1-Hynaell_Website.png') no-repeat;
+   background-size: cover;
+
+}
+
+.content2 {
+   background: url('/media/content2-Hynaell_Website.png') no-repeat;
    background-size: cover;
 
 }
