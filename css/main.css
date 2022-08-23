@@ -59,6 +59,7 @@ body {
 }
 
 .titulos {
+   top: 22%;
    position: absolute;
    font-family: 'Rubik Iso', cursive;
    color: white;
@@ -66,14 +67,12 @@ body {
 }
 
 .titulo1 {
-   top: 130px;
    text-shadow: 0 0 20px #ff0000;
    font-size: 60px;
    
 }
 
 .titulo2 {
-   top: 130px;
    text-shadow: 0 0 20px #ff0000;
    font-size: 60px;
    
