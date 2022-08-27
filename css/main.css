@@ -68,12 +68,12 @@ body {
 }
 
 .blur-titulos {
-
    animation: blur-titulos 5s linear infinite;
 
 }
 
 .content {
+   overflow: hidden;
    position: relative;
    display: flex;
    justify-content: center;
@@ -94,11 +94,56 @@ body {
    opacity: 0;
 }
 
+.options {
+   overflow: hidden;
+   position: relative;
+   display: none;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   border-radius: 30px;
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(to bottom, #5E17EB, #8a54f5);
+}
+
+.options div {
+   border-radius: 10px;
+   margin: 2%;
+   width: 40%;
+   height: 28%;
+   background-color: black;
+
+}
+
+.options div:hover {
+   border-radius: 10px;
+   margin: 2%;
+   width: 37%;
+   height: 25%;
+   background-color: black;
+
+}
+
+.options_animation {
+
+   animation: options_animation 0.3s linear;
+}
+
+.options_animation_out {
+
+   animation: options_animation_out 0.3s linear;
+}
+
+.project1 {
+   background: url('/media/logo-Hynaell_Website.png') no-repeat;
+   background-size: cover;
+}
+
 .content1 {
    background: url('/media/content1-Hynaell_Website.png') no-repeat;
    background-size: cover;
    cursor: pointer;
-
 }
 
 .content2 {
@@ -157,6 +202,44 @@ footer {
    100% {
 
       text-shadow: 0 0 20px #fa0000;
+   }
+
+}
+
+@keyframes options_animation {
+   from {
+
+      top: 100%;
+      right: 100%;
+      width: 0%;
+
+   }
+
+   to {
+
+      top: 0%;
+      left: 0%;
+      width: 100%;
+
+   }
+
+}
+
+@keyframes options_animation_out {
+   from {
+
+      top: 0%;
+      right: 0%;
+      width: 100%;
+
+   }
+
+   to {
+
+      top: 100%;
+      left: 100%;
+      width: 0%;
+
    }
 
 }
