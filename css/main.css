@@ -228,17 +228,13 @@ footer {
 @keyframes options_animation_out {
    from {
 
-      top: 0%;
-      right: 0%;
-      width: 100%;
+     opacity: 1;
 
    }
 
    to {
 
-      top: 100%;
-      left: 100%;
-      width: 0%;
+    opacity: 0;
 
    }
 

@@ -14,14 +14,20 @@ const options_1 = () => {
 
    if (on1 == true) {
 
-      options1.style.display = 'none';
       options1.classList.remove('options_animation');
+      options1.classList.add('options_animation_out');
+
+      setTimeout(() => {
+         options1.style.display = 'none';
+     }, 300);
+     
       on1 = false
 
    } else {
 
       options1.style.display = 'flex';
       options1.classList.add('options_animation');
+      options1.classList.remove('options_animation_out');
       on1 = true;
 
    }
@@ -33,14 +39,20 @@ const options_2 = () => {
 
    if (on2 == true) {
 
-      options2.style.display = 'none';
       options2.classList.remove('options_animation');
+      options2.classList.add('options_animation_out');
+
+      setTimeout(() => {
+         options2.style.display = 'none';
+     }, 300);
+
       on2 = false
 
    } else {
 
       options2.style.display = 'flex';
       options2.classList.add('options_animation');
+      options2.classList.remove('options_animation_out');
       on2 = true;
    }
 
@@ -54,9 +66,9 @@ const options_3 = () => {
       options3.classList.remove('options_animation');
       options3.classList.add('options_animation_out');
 
-      setTimeout(() => {
+     setTimeout(() => {
          options3.style.display = 'none';
-      }, 250);
+     }, 300);
 
       on3 = false
 
