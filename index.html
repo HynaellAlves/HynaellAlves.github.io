@@ -1,51 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="/css/main.css">
-   <link rel="icon" type="image/png" sizes="16x16" href="/media/favicon-16x16.png">
-   <title>Personal page</title>
+   <link rel="stylesheet" href="./css/index.css">
+   <title>Meu portifólio</title>
 </head>
 
 <body>
-
-   <div class="banner">
-      <div class="foto">
-         <img src="/media/Foto-Hynaell_Website.png" alt="">
-      </div>
-      <img src="/media/banner-Hynaell_Website.gif">
-   </div>
-
    <div class="page">
-      <div class="content content1">
-         <div class="style-content style-content1"></div>
-         <label class="titulos titulo1">Projetos</label>
-
-         <div class="options options1">
-            
-            <div class="project1"></div>
-            <div></div>
-            <div></div>
-            <div></div>
-
+      <main>
+         <div class="mini-head">
+            <div class="image">
+               <img src="./img/Eu-sem-fundo.png" alt="">
+            </div>
+            <strong>
+               <p class="nome">
+                  Hynaell Alves
+               </p>
+               <p class="idade">
+                  20 Anos
+               </p>
+               <p class="cargo">
+                  Desenvolvedor Full Stack Júnior
+               </p>
+               <p class="frase">
+                  "Grandes desafios, geram grandes experiências"
+               </p>
+            </strong>
          </div>
-      </div>
-      <div class="content content2">
-         <div class="style-content2 style-content"></div>
-         <label class="titulos titulo2">Links</label>
-         <div class="options options2"></div>
-      </div>
-      <div class="content content3">
-         <div class="style-content3 style-content"></div>
-         <label class="titulos titulo3">Sobre</label>
-         <div class="options options3"></div>
-      </div>
+         <div class="nav">
+            <button class="button sobre">
+               <img src="./img/person-circle.svg">
+            </button>
+            <button class="button sociais">
+               <img src="./img/share-social.svg">
+            </button>
+         </div>
+         <div class="mini-body">
+            <div class="section section-1">
+               <label class="title">Sobre Mim</label>
+               <div class="conteudo">
+                  <p class="bordao">Faaala! Dev, tranquilo?</p>
+                  <p class="texto text-sobre">
+                     <br>
+                     Me chamo Hynaell Alves e seja muito bem vindo ao meu curriculo web.
+                     Sou formado em <label class="destaque">Análise e Desenvolvimento de Sistemas</label>, pela Escola
+                     Técnica
+                     <label class="destaque">Senai</label>, possuo habilidades tanto no <label>front-end</label> como no
+                     <label>back-end</label> e assim me considero um dev fullstack.
+                     <br>
+                     <br>
+                     Atualmente estou estudando <label class="destaque">JavaScript</label> e tecnologias relacionadas,
+                     de
+                     forma autônoma. Busco sempre
+                     melhorar minhas habilidades e conhecer novas tecnologias. Planejo me graduar em <label
+                        class="destaque">Engenharia de Software</label> para alavancar ainda mais meus conhecimentos.
+                     <br>
+                     <br>
+                     Algumas tecnologias e linguagens que utilizo ou já utilizei são: <label
+                        class="destaque">JavaScript,
+                        Java, C#, Html, Css, Node Js, React, Asp.net, Entity Framework, ionic, MySQL Server,
+                        etc.</label>
+                     Mais informações em meu github e outras redes listadas na próxima sessão.
+                  </p>
+               </div>
+            </div>
+
+            <div class="section section-2">
+               <label class="title">Redes Sociais</label>
+               <div class="conteudo">
+                  <label class="texto">
+                   <p class="redes-sociais"><img src="./img/logo-instagram.svg" alt="">
+                     <a href="">Instagram</a></p>
+                     <p class="redes-sociais"><img src="./img/logo-youtube.svg" alt=""> <a href="">Youtube</a></p>
+                     <p class="redes-sociais"><img src="./img/logo-linkedin.svg" alt=""> <a href="">Linkedin</a></p>
+                     <p class="redes-sociais"><img src="./img/logo-github.svg" alt=""> <a href="">GitHub</a></p>
+                  </label>
+               </div>
+            </div>
+         </div>
+      </main>
    </div>
 </body>
-<script src="/js/effects.js"></script>
-<script src="/js/Menu.js"></script>
+<script src="./js/nav.js"></script>
 
 </html>
