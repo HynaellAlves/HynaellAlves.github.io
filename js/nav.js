@@ -1,10 +1,13 @@
 const bnt_sobre = document.querySelector('.sobre');
 const bnt_social = document.querySelector('.sociais');
+const start = document.querySelector('.start');
 const sobre = document.querySelector('.section-1');
 const sociais = document.querySelector('.section-2');
 var active;
 
 bnt_sobre.addEventListener('click', () => {
+
+   start.style.display = 'none';
 
    active = 1;
 
@@ -19,6 +22,8 @@ bnt_sobre.addEventListener('click', () => {
 });
 
 bnt_social.addEventListener('click', () => {
+
+   start.style.display = 'none';
 
    active = 2;
 
