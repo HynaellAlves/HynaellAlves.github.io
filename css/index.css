@@ -170,7 +170,7 @@ main {
    overflow: hidden;
 }
 
-.start {
+.started {
    flex-direction: column;
    text-align: center;
    align-items: center;
@@ -179,7 +179,7 @@ main {
 
 }
 
-.start p {
+.started p {
    padding: 3% 0;
 
 }
