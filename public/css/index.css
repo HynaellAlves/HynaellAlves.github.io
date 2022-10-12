@@ -35,14 +35,41 @@ body {
 }
 
 main {
+   position: relative;
    display: flex;
    flex-wrap: wrap;
    overflow: hidden;
    width: 43%;
-   height: 90%;
+   height: 93%;
    background-color: #0d0c18;
    border-radius: 4%;
    border: solid #610099 3px;
+
+}
+
+.baixar {
+   display: flex;
+   margin: 1.5% 0;
+   cursor: pointer;
+   width: 22%;
+   height: 30%;
+   border-radius: 10px;
+   background: linear-gradient(to top right, #a200ff, #4c0079, #a200ff);
+   box-shadow: 0 0 15px purple;
+   font-size: 15px;
+   text-decoration: none;
+   font-family: 'Quicksand', sans-serif;
+   color: white;
+   align-items: center;
+   justify-content: center;
+   text-shadow: 0 0 10px black;
+
+}
+
+.baixar:hover{
+   background: linear-gradient(to top right, purple, rgb(58, 0, 58), purple);
+   box-shadow: 0 0 15px #970097;
+   
 
 }
 
@@ -202,6 +229,7 @@ main {
 .section-1 {
    display: none;
    flex-direction: column;
+   align-items: center;
 
 }
 
