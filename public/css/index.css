@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
 * {
@@ -160,10 +159,16 @@ main {
 }
 
 .button {
+   outline: none;
    cursor: pointer;
    border-width: 0;
    width: 50%;
    height: 100%;
+
+}
+
+.button img {
+   width: 12%;
 
 }
 
