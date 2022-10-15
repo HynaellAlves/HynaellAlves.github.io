@@ -71,13 +71,13 @@ main {
    color: white;
    align-items: center;
    justify-content: center;
-   text-shadow: 0 0 10px black;
+   text-shadow: 0 0 1rem #000000;
 
 }
 
 .baixar:hover {
-   background: linear-gradient(to top right, purple, rgb(58, 0, 58), purple);
-   box-shadow: 0 0 15px #970097;
+   background: linear-gradient(to top right, #800080, #3a003a, #800080);
+   box-shadow: 0 0 1.36rem #970097;
 
 
 }
@@ -127,7 +127,7 @@ main {
 .nome {
    font-size: 2.5rem;
    color: #a200ff;
-   text-shadow: 0 0 1rem #7600bb;
+   text-shadow: 0 0 1.5rem #7600bb;
    font-family: 'Quicksand', sans-serif;
 
 }
@@ -135,15 +135,15 @@ main {
 .idade {
    font-size: 1.35rem;
    color: #a200ff;
-   text-shadow: 0 0 10px #7600bb;
+   text-shadow: 0 0 1rem #7600bb;
    font-family: 'Quicksand', sans-serif;
 
 }
 
 .cargo {
    font-size: 1.25rem;
-   color: white;
-   text-shadow: 0 0 10px #8b00db;
+   color: #ffffff;
+   text-shadow: 0 0 1rem #8b00db;
    font-family: 'Quicksand', sans-serif;
    margin-bottom: 2%;
 
@@ -152,7 +152,7 @@ main {
 .frase {
    font-size: 1rem;
    color: #ce15ce;
-   text-shadow: 0 0 15px #a304ff;
+   text-shadow: 0 0 1.36rem #a304ff;
    font-family: 'Silkscreen', sans-serif;
    animation: color-blur 12s linear infinite;
 
@@ -218,7 +218,7 @@ main {
    text-align: center;
    align-items: center;
    font-family: 'Quicksand', sans-serif;
-   padding: 10% 0;
+   padding: 20% 2%;
 
 }
 
@@ -228,16 +228,16 @@ main {
 }
 
 .welcome {
-   font-size: 2.1rem;
+   font-size: 2rem;
    color: #00ffff;
-   text-shadow: 0 0 5px #00bbbb;
+   text-shadow: 0 0 0.5rem #00bbbb;
 
 }
 
 .sub-title {
    font-size: 1rem;
    color: #00ffff;
-   text-shadow: 0 0 5px #00bbbb;
+   text-shadow: 0 0 0.5rem #00bbbb;
 
 }
 
@@ -259,7 +259,7 @@ main {
    text-align: center;
    padding: 3% 0;
    color: #00ff00;
-   text-shadow: 0 0 7px #00ff00;
+   text-shadow: 0 0 0.63rem #00ff00;
 }
 
 .conteudo {
@@ -281,7 +281,7 @@ main {
 .texto {
    text-align: justify;
    color: #00ffff;
-   text-shadow: 0 0 5px #00bbbb;
+   text-shadow: 0 0 0.46rem #00bbbb;
    font-size: 1.08rem;
    line-height: 1.5rem;
    font-family: 'Silkscreen', sans-serif;
@@ -291,8 +291,8 @@ main {
 }
 
 .destaque {
-   color: #ce15ce;
-   text-shadow: 0 0 15px #a304ff;
+   color: #eb0aeb;
+   text-shadow: 0 0 1.35rem #a304ff;
 
 }
 
@@ -306,22 +306,22 @@ main {
 
 .redes-sociais a {
    color: #00ffff;
-   text-shadow: 0 0 5px #00bbbb;
+   text-shadow: 0 0 0.45rem #00bbbb;
    text-decoration: none;
 }
 
 .redes-sociais a:hover {
 
-   transition: 0.3s linear;
-   color: white;
-   text-shadow: 0 0 5px white;
+   transition: 0.2s linear;
+   color: #ffffff;
+   text-shadow: 0 0 0.45rem #ffffff;
 }
 
 
 .redes-sociais a:active {
    transition: none;
    color: #a200ff;
-   text-shadow: 0 0 5px #a200ff;
+   text-shadow: 0 0 0.45rem #a200ff;
 }
 
 ::-webkit-scrollbar {
@@ -340,27 +340,27 @@ main {
 
    0% {
       color: #ce15ce;
-      text-shadow: 0 0 15px #a304ff;
+      text-shadow: 0 0 1.36rem #a304ff;
    }
 
    25% {
       color: #00ffff;
-      text-shadow: 0 0 15px #00bbbb;
+      text-shadow: 0 0 1.36rem #00bbbb;
    }
 
    50% {
       color: #00ff00;
-      text-shadow: 0 0 15px #00ff00;
+      text-shadow: 0 0 1.36rem #00ff00;
    }
 
    75% {
-      color: white;
-      text-shadow: 0 0 15px white;
+      color: #ffffff;
+      text-shadow: 0 0 1.36rem #ffffff;
    }
 
    100% {
       color: #ce15ce;
-      text-shadow: 0 0 15px #a304ff;
+      text-shadow: 0 0 1.36rem #a304ff;
    }
 
 }
@@ -368,23 +368,23 @@ main {
 @keyframes box-blur {
 
    0% {
-      box-shadow: -3px 3px 50px purple;
+      box-shadow: -3px 3px 2.72rem #800080;
    }
 
    25% {
-      box-shadow: -3px 3px 50px #ff00b3;
+      box-shadow: -3px 3px 2.72rem #ff00b3;
    }
 
    50% {
-      box-shadow: -3px 3px 50px #a200ff;
+      box-shadow: -3px 3px 2.72rem #a200ff;
    }
 
    75% {
-      box-shadow: -3px 3px 50px #00ffff;
+      box-shadow: -3px 3px 2.72rem #00ffff;
    }
 
    100% {
-      box-shadow: -3px 3px 50px purple;
+      box-shadow: -3px 3px 2.72rem #800080;
    }
 
 }
