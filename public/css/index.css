@@ -9,6 +9,7 @@
 }
 
 html {
+   overflow: hidden;
    font-size: 11px;
 
 }
