@@ -38,7 +38,7 @@ body {
    background-color: #00000067;
    border-radius: 20% 0 20% 0;
    box-shadow: -3px 3px 50px purple;
-   animation: box-blur 10s linear infinite;
+   animation: box-blur 7s linear infinite;
 
 }
 
@@ -259,7 +259,6 @@ main {
    text-align: center;
    padding: 3% 0;
    color: #00ff00;
-   text-shadow: 0 0 0.63rem #00ff00;
 }
 
 .conteudo {
