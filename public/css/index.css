@@ -8,12 +8,19 @@
 
 }
 
+html {
+   font-size: 11px;
+
+}
+
 body {
    display: flex;
    justify-content: center;
    align-items: center;
    width: 100%;
    height: 100vh;
+   max-height: 668px;
+   max-width: 100%;
    background: url(../img/background-HWebsite.png) no-repeat fixed;
    background-size: cover;
 
@@ -24,10 +31,12 @@ body {
    justify-content: center;
    align-items: center;
    overflow: hidden;
-   width: 90%;
+   width: 100%;
    height: 88vh;
+   max-height: 588px;
+   max-width: 100%;
    background-color: #00000067;
-   border-radius: 40% 0 40% 0;
+   border-radius: 20% 0 20% 0;
    box-shadow: -3px 3px 50px purple;
    animation: box-blur 10s linear infinite;
 
@@ -38,9 +47,10 @@ main {
    display: flex;
    flex-wrap: wrap;
    overflow: hidden;
-   width: 43%;
+   width: 38%;
    height: 93%;
-   background-color: #0d0c18;
+   max-height: 547px;
+   max-width: 498px;
    border-radius: 4%;
    border: solid #610099 3px;
 
@@ -55,7 +65,7 @@ main {
    border-radius: 10px;
    background: linear-gradient(to top right, #a200ff, #4c0079, #a200ff);
    box-shadow: 0 0 15px purple;
-   font-size: 15px;
+   font-size: 1.3rem;
    text-decoration: none;
    font-family: 'Quicksand', sans-serif;
    color: white;
@@ -65,10 +75,10 @@ main {
 
 }
 
-.baixar:hover{
+.baixar:hover {
    background: linear-gradient(to top right, purple, rgb(58, 0, 58), purple);
    box-shadow: 0 0 15px #970097;
-   
+
 
 }
 
@@ -115,15 +125,15 @@ main {
 }
 
 .nome {
-   font-size: 30px;
+   font-size: 2.5rem;
    color: #a200ff;
-   text-shadow: 0 0 10px #7600bb;
+   text-shadow: 0 0 1rem #7600bb;
    font-family: 'Quicksand', sans-serif;
 
 }
 
 .idade {
-   font-size: 16px;
+   font-size: 1.35rem;
    color: #a200ff;
    text-shadow: 0 0 10px #7600bb;
    font-family: 'Quicksand', sans-serif;
@@ -131,7 +141,7 @@ main {
 }
 
 .cargo {
-   font-size: 15px;
+   font-size: 1.25rem;
    color: white;
    text-shadow: 0 0 10px #8b00db;
    font-family: 'Quicksand', sans-serif;
@@ -140,7 +150,7 @@ main {
 }
 
 .frase {
-   font-size: 12px;
+   font-size: 1rem;
    color: #ce15ce;
    text-shadow: 0 0 15px #a304ff;
    font-family: 'Silkscreen', sans-serif;
@@ -218,14 +228,14 @@ main {
 }
 
 .welcome {
-   font-size: 25px;
+   font-size: 2.1rem;
    color: #00ffff;
    text-shadow: 0 0 5px #00bbbb;
 
 }
 
 .sub-title {
-   font-size: 12px;
+   font-size: 1rem;
    color: #00ffff;
    text-shadow: 0 0 5px #00bbbb;
 
@@ -244,7 +254,7 @@ main {
 }
 
 .title {
-   font-size: 17px;
+   font-size: 1.41rem;
    font-family: 'Silkscreen', sans-serif;
    text-align: center;
    padding: 3% 0;
@@ -262,7 +272,7 @@ main {
 
 .bordao {
    color: white;
-   font-size: 14px;
+   font-size: 1.17rem;
    font-family: 'Silkscreen', sans-serif;
    text-align: center;
 
@@ -272,10 +282,11 @@ main {
    text-align: justify;
    color: #00ffff;
    text-shadow: 0 0 5px #00bbbb;
-   font-size: 13px;
+   font-size: 1.08rem;
+   line-height: 1.5rem;
    font-family: 'Silkscreen', sans-serif;
    overflow-wrap: break-word;
-   letter-spacing: 1px;
+   letter-spacing: 0.1rem;
 
 }
 
@@ -286,10 +297,10 @@ main {
 }
 
 .redes-sociais {
-   font-size: 18px;
+   font-size: 1.5rem;
    text-align: center;
-   -webkit-margin-before: 13px;
-   -webkit-margin-after: 13px;
+   -webkit-margin-before: 1.08rem;
+   -webkit-margin-after: 1.08rem;
 
 }
 
@@ -375,5 +386,79 @@ main {
    100% {
       box-shadow: -3px 3px 50px purple;
    }
+
+}
+
+
+@media (max-width: 1024px) {
+
+   html {
+      font-size: 65%;
+
+   }
+
+   .image {
+      width: 22%;
+
+   }
+
+   main {
+      width: 50%;
+
+   }
+
+
+}
+
+@media (max-width: 768px) {
+
+   html {
+      font-size: 70%;
+
+   }
+
+   main {
+      width: 63%;
+
+   }
+
+
+}
+
+@media (max-width: 425px) {
+
+   html {
+      font-size: 63%;
+
+   }
+
+   .image {
+
+      width: 25%;
+
+   }
+
+   main {
+      width: 87%;
+      height: 87%;
+
+   }
+
+
+}
+
+@media (max-width: 375px) {
+
+   html {
+      font-size: 50%;
+
+   }
+
+   main {
+      width: 87%;
+      height: 80%;
+
+   }
+
 
 }
