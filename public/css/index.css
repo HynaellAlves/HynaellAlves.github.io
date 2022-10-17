@@ -15,6 +15,7 @@ html {
 }
 
 body {
+   cursor: default;
    overflow: hidden;
    display: flex;
    justify-content: center;
@@ -211,35 +212,6 @@ main {
    width: 100%;
    height: 100%;
    overflow: hidden;
-}
-
-.started {
-   display: flex;
-   flex-direction: column;
-   text-align: center;
-   align-items: center;
-   font-family: 'Quicksand', sans-serif;
-   padding: 20% 2%;
-
-}
-
-.started p {
-   padding: 3% 0;
-
-}
-
-.welcome {
-   font-size: 2rem;
-   color: #00ffff;
-   text-shadow: 0 0 0.5rem #00bbbb;
-
-}
-
-.sub-title {
-   font-size: 1rem;
-   color: #00ffff;
-   text-shadow: 0 0 0.5rem #00bbbb;
-
 }
 
 .section-1 {
