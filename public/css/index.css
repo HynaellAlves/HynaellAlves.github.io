@@ -1,15 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
-:root {
+@media screen and (prefers-color-scheme: dark) {
 
-   --background-color_1: #4c2480;
-   --background-color_2: #1b0438;
-   --border-color_main: #c300ff;
-   --background-linear_baixar: #9a20ff, #44007c, #9a20ff;
-   --background-color_image: #26094b;
-   --font-color_1: #ffffffea;
-   --font-color_2: #000000;
+   :root {
+
+      --background-color_1: #0f0e1d;
+      --background-color_2: #000000;
+      --border-color_main: #610099;
+      --background-linear_baixar: #a200ff, #4c0079, #a200ff;
+      --background-color_image: #240238;
+      --font-color_1: #a200ff;
+      --font-color_2: #ffffff;
+
+   }
+
+   body {
+      background: url('../img/background-HWebsite_dark.webp') no-repeat fixed;
+
+   }
+
+}
+
+@media screen and (prefers-color-scheme: light) {
+
+   :root {
+
+      --background-color_1: #4c2480;
+      --background-color_2: #1b0438;
+      --border-color_main: #c300ff;
+      --background-linear_baixar: #9a20ff, #44007c, #9a20ff;
+      --background-color_image: #26094b;
+      --font-color_1: #ffffffea;
+      --font-color_2: #000000;
+   
+   }
+   body {
+      background: url('../img/background-HWebsite.webp') no-repeat fixed;
+
+   }
+
 
 }
 
@@ -35,7 +65,6 @@ body {
    height: 100vh;
    max-width: 100%;
    max-height: 100vh;
-   background: url('../img/background-HWebsite.webp') no-repeat fixed;
    background-size: cover;
 
 }
@@ -131,7 +160,7 @@ main {
 .nome {
    font-size: 2.5rem;
    color: var(--font-color_1);
-   text-shadow: 0 0 1rem #ffffff;
+   text-shadow: 0 0 1rem var(--font-color_1);
    font-family: 'Quicksand', sans-serif;
 
 }
