@@ -54,10 +54,10 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 100%;
+   width: 97%;
    height: 88vh;
    max-height: 588px;
-   max-width: 100%;
+   max-width: 97%;
    background-color: #00000065;
    border-radius: 20% 0 20% 0;
    animation: box-blur 10s linear infinite;
@@ -110,7 +110,7 @@ main {
    position: absolute;
    top: 5%;
    right: 4%;
-   width: 17%;
+   width: 14%;
    max-width: 83px;
    max-height: 27px;
    height: 5%;
